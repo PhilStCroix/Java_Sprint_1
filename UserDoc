@@ -1,0 +1,65 @@
+User Documentation for Library Management System
+
+Table of Contents:
+
+Introduction
+Application Overview
+Classes and Their Functions
+Book
+Author
+Patron
+Library
+How to Start/Access the Application
+Class Diagram
+Conclusion
+1. Introduction:
+
+The Library Management System is a Java application designed to manage books, authors, and patrons within a library. This user documentation provides an overview of the application, an explanation of the classes, their functions, and how to start or access the system.
+
+2. Application Overview:
+
+The Library Management System consists of several key components:
+
+Book: Represents a book with properties such as title, author, ISBN, publisher, and the number of copies. It implements the Borrowable interface to allow patrons to borrow and return books.
+
+Author: Represents an author with properties like the name and a list of books they have written.
+
+Patron: Represents a library patron with properties like name, address, phone number, and a list of books they have borrowed.
+
+Library: Manages books, authors, and patrons. It includes methods to search for books by title, author, or ISBN, and to borrow and return books.
+
+Borrowable Interface: Defines methods for borrowing and returning books, implemented by the Book class.
+
+Status Enum: Represents the status of a book, including values like AVAILABLE, CHECKED_OUT, and OVERDUE.
+
+3. Classes and Their Functions:
+
+Here is a brief explanation of each class:
+
+Book: Represents a book in the library. It has properties like title, author, ISBN, publisher, and the number of copies. The class also implements the Borrowable interface to manage book borrowing and returning.
+
+Author: Represents an author with a name and a list of books they have written.
+
+Patron: Represents a library patron with properties like name, address, phone number, and a list of books they have borrowed.
+
+Library: Manages books, authors, and patrons. It provides methods to search for books by title, author, or ISBN, and to handle book borrowing and returning.
+
+4. How to Start/Access the Application:
+
+To start and access the Library Management System:
+
+Compile and run the Java program containing the classes, including Library and TestSystem. Ensure you have Java development tools installed.
+
+Once the application is running, you can interact with it using the TestSystem class. This class demonstrates various operations like creating books, authors, patrons, searching for books, and managing book borrowing and returning.
+
+5. Class Diagram:
+
+A class diagram showing the relationships between the classes and their associations can be generated using UML modeling tools. This diagram visually represents the structure of the application and how the classes interact with each other.
+
+Insert Class Diagram here (if available)
+
+6. Conclusion:
+
+The Library Management System is a Java application that allows for efficient management of books, authors, and patrons within a library. It provides a basic framework for book borrowing, returning, and searching. You can extend and customize this application to suit your specific needs.
+
+If you require further assistance or have questions about the application, please refer to the provided user documentation.
